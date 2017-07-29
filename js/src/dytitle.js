@@ -1,0 +1,1 @@
+var OriginTitile=document.title,titleTime;document.addEventListener("visibilitychange",function(){document.hidden?($('[rel="icon"]').attr("href","/img/TEP.ico"),document.title=" 草榴社區主論壇 - Lunaleeguo ",clearTimeout(titleTime)):($('[rel="icon"]').attr("href","/favicon.ico"),document.title=" 东骧神骏 "+OriginTitile,titleTime=setTimeout(function(){document.title=OriginTitile},2e3))});
